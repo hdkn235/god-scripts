@@ -1,0 +1,17 @@
+{
+  "name": "douban2notion",
+  "version": "1.0.0",
+  "description": "豆瓣同步到notion",
+  "main": "index.js",
+  "scripts": {
+    "test": "book2notion.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
