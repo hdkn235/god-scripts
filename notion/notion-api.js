@@ -1,7 +1,8 @@
 const axios = require("axios");
+const notionConst = require("./notion-const");
 
 // notion的授权token
-const NOTION_TOKEN = "";
+const NOTION_TOKEN = notionConst.AUTH_TOKEN;
 
 // notion接口的请求头
 const NOTION_HEADERS = {

@@ -3,9 +3,10 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
 const notionApi = require("./notion-api");
+const notionConst = require("./notion-const");
 
 // 书单数据库ID
-const NOTION_DATABASE_ID = "";
+const NOTION_DATABASE_ID = notionConst.BOOK_DATABASE_ID;
 
 const READ_STATUS = {
     WANT_READ: "想读",
